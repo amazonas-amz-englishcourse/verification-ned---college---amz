@@ -1,1 +1,1 @@
-# verification-ned---college---amz
+# amz-amazonas-english-nedcollege
