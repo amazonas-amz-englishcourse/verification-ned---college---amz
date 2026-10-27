@@ -3,19 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Verificação de documento</title>
+  <title>AMZ Amazonas —NED College enrolment letter 2026s</title>
   <style>
-    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; }
-    .ok { color: #1a7f37; font-weight: bold; }
+    :root { --verde: #2e5d34; --verde-escuro: #1f3d23; --creme: #f4f1e4; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: var(--creme);
+           margin: 0; padding: 24px; color: #222; }
+    .card { max-width: 560px; margin: 24px auto; background: #fff;
+            border-radius: 14px; overflow: hidden;
+            box-shadow: 0 6px 24px rgba(0,0,0,.08); }
+    .topo { background: var(--verde); color: #fff; padding: 28px 24px; text-align: center; }
+    .topo h1 { margin: 0; font-size: 26px; letter-spacing: 2px; }
+    .topo p { margin: 6px 0 0; opacity: .85; font-size: 13px; }
+    .selo { display: inline-block; background: #e4efe3; color: var(--verde-escuro);
+            font-weight: bold; padding: 8px 14px; border-radius: 20px;
+            font-size: 14px; margin: 20px 24px 0; }
+    .corpo { padding: 16px 24px 28px; line-height: 1.6; }
+    .corpo b { color: var(--verde-escuro); }
+    .linha { padding: 8px 0; border-bottom: 1px solid #eee; }
+    .btn { display: inline-block; margin-top: 18px; background: var(--verde);
+           color: #fff; text-decoration: none; padding: 12px 20px; border-radius: 8px; }
+    .rodape { background: var(--verde-escuro); color: #d8e6d6;
+              padding: 16px 24px; font-size: 12px; text-align: center; }
   </style>
 </head>
 <body>
-  <h1>Documento verificado</h1>
-  <p class="ok">✔ Documento autêntico emitido por Seu Nome</p>
-  <p><b>Projeto:</b> Criação de logotipo</p>
-  <p><b>Cliente:</b> Cliente X</p>
-  <p><b>Data de emissão:</b> 27/10/2026</p>
-  <p><b>Código:</b> a7f3c9</p>
-  <p><a href="documento.pdf">Baixar documento original (PDF)</a></p>
+  <div class="card">
+    <div class="topo">
+      <h1>AMZ AMAZONAS</h1>
+      <p>English College NED - amazonas amz enrolmente letter.</p>
+    </div>
+    <span class="selo">Comprovante emitido por AMZ Amazonas</span>
+    <div class="corpo">
+      <p>Este documento comprova a prestação de aulas particulares de inglês
+         e o pagamento correspondente.</p>
+      <div class="linha"><b> Student:</b> Kelly Aparecida Barbosa </div>
+      <div class="linha"><b>Curso:</b> Inglês para Iniciantes</div>
+      <div class="linha"><b>Período de referência:</b> Outubro/2026</div>
+      <div class="linha"><b>Aulas realizadas:</b> 8 (2 por semana)</div>
+      <div class="linha"><b>Valor pago:</b> 1499,00</div>
+      <div class="linha"><b>Código:</b> a7f3c9</div>
+      <div class="linha"><b>Emitido por:</b> [Seu nome], professora</div>
+      <a class="btn" href="carta.pdf">Baixar comprovante (PDF)</a>
+    </div>
+    <div class="rodape">
+      Aulas particulares de idioma de caráter livre · Documento de uso pessoal
+    </div>
+  </div>
 </body>
 </html>
